@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Nested Todos</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="/script.js" defer></script>
+  </head>
+  
+  <body>
+    
+    <div class="wrapper">
+    
+      <div class="row span-1-of-3"> 
+        <button id="toggle-all">TOGGLE<br>ALL</button>
+      </div>
+
+      <div class="middle row span-1-of-3">
+        <h1>Nested Todos</h1>
+        <input type="text" id="add-todos" placeholder="Add todos">
+        <ul id="todo-table"></ul>
+      </div>
+
+      <div class="row span-1-of-3">  
+        <button id="destroy-completed">DELETE<br>COMPLETED</button>
+      </div>  
+      
+    </div>  
+    
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>
