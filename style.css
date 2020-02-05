@@ -101,7 +101,7 @@ h1 {
 #todo-table {
   white-space: nowrap;
   overflow: auto;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 ul #nested-table {
